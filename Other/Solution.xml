@@ -6,7 +6,7 @@
       <LocalizedName description="Temp Solution for connector" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.3</Version>
+    <Version>1.0.0.6</Version>
     <Managed>1</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherorg55294015</UniqueName>
@@ -80,9 +80,16 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="29" id="{ac8eeddc-c405-f111-8407-7ced8dbaf2d6}" behavior="0" />
       <RootComponent type="29" id="{de12159f-a205-f111-8407-7ced8dbaf2d6}" behavior="0" />
     </RootComponents>
     <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package appName="msdynce_Service" version="9.0.26013.1013">msdynce_ServiceAnchor (9.0.26013.1013)</package>
+        </Required>
+        <Dependent type="29" displayName="Create Case 2" id="{ac8eeddc-c405-f111-8407-7ced8dbaf2d6}" />
+      </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
           <package appName="msdynce_Service" version="9.0.26013.1013">msdynce_ServiceAnchor (9.0.26013.1013)</package>
